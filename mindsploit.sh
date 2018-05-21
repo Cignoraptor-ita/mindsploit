@@ -68,7 +68,7 @@ echo " "
         ;;
         'SEEK AND DESTROY')
         cd evento
-        sudo bash event.sh
+        bash event.sh
         cd - > /dev/null
         break;
         esac
