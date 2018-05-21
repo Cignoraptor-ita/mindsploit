@@ -20,7 +20,7 @@ cat > index.html << EOF
 <head>
 
 <form action="processo.php" method="POST">
-<body background="whats.jpg">
+<body background="whats.png">
 <p>=========================</p>
 
 
