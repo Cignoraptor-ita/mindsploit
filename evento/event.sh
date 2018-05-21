@@ -17,7 +17,7 @@ sleep 1
 echo -e "\e[00;33mScript developed just for security test use, 
 the author decline any responsability for any illegal use of it.\e[00m"
 echo " "
-echo -e "\e[00;32mEnter a command for start if you have understard the conditions: \e[00m"
+echo -e "\e[00;32mEnter a command for start if you have understand the conditions: \e[00m"
 read
 clear
 bar
@@ -47,7 +47,7 @@ if [[ "$siono" = "y" ]]
 		echo "Enter year of event: "
 		read anno
 		echo -e "Searching for stories liked and events ($anno) of the target with FB graph intersect...\e[00m"
-firefox https://www.facebook.com/search/012001201003/stories-liked https://www.facebook.com/search/str/$idt/events//$anno/events/intersect/ &
+firefox https://www.facebook.com/search/$idt/stories-liked https://www.facebook.com/search/str/$idt/events//$anno/events/intersect/ &
 clear
 
 elif [[ "$siono" = "n" ]]
