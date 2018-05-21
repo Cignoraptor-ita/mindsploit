@@ -47,7 +47,7 @@ if [[ "$siono" = "y" ]]
 		echo "Enter year of event: "
 		read anno
 		echo -e "Searching for stories liked and events ($anno) of the target with FB graph intersect...\e[00m"
-firefox https://www.facebook.com/search/$idt/stories-liked https://www.facebook.com/search/str/$idt/events//$anno/events/intersect/ &
+firefox https://www.facebook.com/search/$idt/stories-liked https://www.facebook.com/search/str/$idt/events-joined/$anno/date/events/intersect/ &
 clear
 
 elif [[ "$siono" = "n" ]]
