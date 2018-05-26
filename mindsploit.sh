@@ -65,6 +65,7 @@ echo " "
         cd collect
         sudo bash colleziona.sh
         cd - >> /dev/null
+        ;;
         'SECURITY ALERT')
         cd sealert
         sudo bash avviascam.sh
