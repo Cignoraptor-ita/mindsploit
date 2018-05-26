@@ -65,7 +65,7 @@ clear
 fi		
 
 echo " "
-sudo echo -e "\e[01;34mCreating an interesting scam-page for the target\e[00m"
+echo -e "\e[01;34mCreating an interesting scam-page for the target\e[00m"
 sleep 0.7
 
 echo " "
