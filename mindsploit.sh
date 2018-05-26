@@ -20,7 +20,7 @@ echo -e "\e[00;38mTool created with phishing scenarios
 for test human security and stupidity\e[00m"
 echo -e "\e[01;34m______________________________________\e[00m"
 echo " "
-echo -e "STATUS: \e[00;33mBeta\e[00m -- \e[00;31m Coded for security testing - The author decline any responsability for 
+echo -e "STATUS: \e[00;33mBeta 0.3\e[00m -- \e[00;31m Coded for security testing - The author decline any responsability for 
 any illegal use of this tool\e[00m"
 echo " "
 bar
