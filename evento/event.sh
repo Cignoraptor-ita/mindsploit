@@ -73,7 +73,7 @@ echo "Insert title for event of interest: "
 read argom
 echo "Insert description for the registration: "
 read desc
-echo "Insert background image (placed in this directory) "
+echo "Insert background image (placed in this directory ----> /evento) "
 read immag
 
 cat > index.html << EOF
