@@ -159,7 +159,7 @@ cat linuxos.txt && cat wos.txt && cat macos.txt
 echo " "
 echo -e "\e[00m"
 
-echo -e "\e[00;31mRemember! Expose the OS type tell to the attacker wich exploit/malware to use!"
+echo -e "\e[00;31mRemember! Expose the OS type tell to the attacker which exploit/malware to use!"
 echo " "
 rm linuxos.txt && rm wos.txt && rm macos.txt
 
