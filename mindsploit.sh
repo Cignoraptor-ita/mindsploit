@@ -38,7 +38,7 @@ do
         echo -e "\e[00;36mThe scam-pages will be use apache2 server in auto mode"
 echo -e "if you want work over internet (wan) you can port forwarding or use ngrok"
 echo " "
-echo -e "\e[00;31mWait! check if apache server is installed..."
+echo -e "\e[00;31mWait! checking if apache server is installed..."
 sleep 0.5
 command -v apache2 >/dev/null 2>&1 || { echo "apache2 it's not installed.  Aborting." >&2; exit 1; }
 echo -e "\e[00;32mInstalled!"
