@@ -30,7 +30,7 @@ echo " "
 echo " "
 PS3="Choose an option:"
 
-select opt in "DESCRIPTION" "PHONE NUMBER" "TWITTER APP" "SECURITY ALERT" "SEEK AND DESTROY"
+select opt in "DESCRIPTION" "PHONE NUMBER" "TWITTER APP" "COLLECT INFO" "SECURITY ALERT" "SEEK AND DESTROY"
 do
     case "$opt" in
         'DESCRIPTION')
@@ -61,6 +61,10 @@ echo " "
         sudo bash twapp.sh
         cd - > /dev/null
         ;;
+        'COLLECT INFO')
+        cd collect
+        sudo bash colleziona.sh
+        cd - >> /dev/null
         'SECURITY ALERT')
         cd sealert
         sudo bash avviascam.sh
